@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+	width: 20%;
+	margin-bottom: 3px;
+}
+z{
+	color:grey;
+	font-size: 12px;
+	text-align: center;
+}
+#contenedor {
+	display:flex;
+	flex-direction:column;
+	background-color: white;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	color:black;
+	text-align: center;
+	background-color: beige;
+	
+}	
+jaja {
+	color: grey;
+	text-align: right;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+zz {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: left;
+	font-size: 15px;
+}
+
+we {
+	margin-left: 100px;
+	margin-right: 100px;
+	color: gray;
+	border: 2px solid black;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 10px;
+	border-radius: 80px;
+	text-align: left;
+}
+y {
+	font-style: italic;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+
+main {display: flex;
+	
+}
+
+section {display: flex; flex-direction: row;
+}
+
+
+
+#contenedor1{display: flex;
+			flex-direction: column}

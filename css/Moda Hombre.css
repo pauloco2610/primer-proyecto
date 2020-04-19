@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+Moda Hombre
+
+#contenedor1 {display: flex;
+	flex-direction: column
+}
+
+body {background-image: url("../imagenes/Moda Hombre/brian-suh-99mYq4MVMwY-unsplash.jpg");
+	background-size: cover}
+
+.logo {
+	border: 4px solid black
+}
+
+.categoria{
+		border-radius: 20px;
+		border: 5px deepskyblue double;
+}
+
+aside b {		
+		margin: 30px;
+		display: block;
+		font-size: 16pt;
+		text-align: center;
+		text-decoration: underline;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		color: darkgreen}
+
+
+header {margin: 15px;
+		text-align: center;
+}
+
+
+nav {margin: 20px;
+	border-width: 5px;
+	border-color:#69AEE7;
+	border-style:dotted;
+	padding-left: 20px;
+	background-color: white}
+
+
+main {display: flex;
+		margin: 15px}
+
+
+aside {
+	width: 20%;
+	height: 50%;
+	padding-top: 20px 0px 10px;
+	border: 7px solid black;
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+}
+
+
+
+aside a {margin: 30px 20px;
+		display: block;
+		font-size: 14pt;
+		text-align: center;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: brown;
+		text-decoration: none;
+}
+
+h5 {text-align: center;
+	margin: 20px 4px;
+	color: black}
+
+aside audio {
+	width: 95%;
+}
+
+.subcategoria {
+	text-decoration: none;
+}
+
+section {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 0px 20px;
+		padding: 30px;
+		border-radius: 30px;
+		background-color: cornsilk;
+}
+
+article h3 {text-align: justify;
+		width: 100%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 12pt;
+}
+
+article {
+		margin: 10px;
+		width: 25%}
+
+
+.imagen {width: 100%;
+		height: 60%;
+		
+		border-width: 3px;
+		border-color: black;
+		border-style: solid}
+
+aside a:hover {
+	color: red;
+	border-color: aqua;
+	border-width: 5px;
+	border-style: ridge;
+	padding: 3px 0px;
+}
+
+footer {
+	text-align: center;
+	margin: 50px 5px 5px 5px;
+	padding-top: 15px;
+
+}
+
+footer p {
+	background-color: darkgray;
+	padding-top: 5px;
+	border-radius: 8px;
+	border: 4px solid black;
+
+}
+
+footer p a{
+	text-decoration: none;
+	color: black;
+}
+
+footer h4 {
+	vertical-align:middle;
+	text-align: center;
+	padding: 5px;
+	color: burlywood;
+}
+
+.final {
+	color: aqua;
+	font-size: 10pt;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+	color: blue;
+}
