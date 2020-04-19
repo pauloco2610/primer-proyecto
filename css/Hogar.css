@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor {
+	display: flex;
+	flex-direction: column;
+}
+
+body {background-image: url("../imagenes/Hogar/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	}
+
+.title {
+	padding: 8px;
+	border-style: double;
+	border-width: 8px;
+	border-color: black;}
+
+.logo {
+	
+	border-radius: 10px;
+	border-style: dashed;
+	}
+
+nav {
+	text-align: center;
+	width: 100%;
+	}
+
+nav img {
+	margin: 40px 0px 10px 0px;
+	width: 80%;
+}
+
+nav h3 {
+	margin: 0px 10px;
+	border: 3px solid red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: justify;
+	
+}
+
+nav img:hover {border-style:dashed;
+	border-color: indigo;
+	border-width: 3px;}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	margin: 25px 5px 10px 5px;
+	width: 20%;
+}
+
+main {
+	display: flex;
+	width: 100%;
+}
+
+aside block {
+	display: block;
+	text-align: center;
+	width: 95%;
+	border-radius: 5px;
+	border-color: darkblue;
+	border-width: 8px;
+	border-style: double;
+	margin: 5px 0px;
+}
+
+block b {
+	display: block;
+	padding: 12px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+}
+
+block a {
+	display: block;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+block a:hover {
+	background-color: greenyellow;
+	font-weight: bold;
+}
+
+block c {
+	display: block;
+	font-style: italic;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+block img {
+	width: 75%;
+	display: block;
+	margin: 10px 5px;
+}
